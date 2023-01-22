@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+    
+   
+}
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    background: linear-gradient(lightblue,lightgreen);
+    height: 760px;
+    border-radius: 25px;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+    
+    
+}
+#title{
+    padding-top: 15%;
+    font-family: "Cinzel";
+    color: purple;
+    
+}
+#restartBtn{
+    margin-top: 14px;
+    font-family: "Cinzel";
+    background: linear-gradient(orange,purple);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
